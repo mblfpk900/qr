@@ -1,26 +1,67 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="ur">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mere Restaurant Ka Naam</title>
+    <title>Butt Grill & Family Restaurant</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #008000; }
-        h1 { color: #333; }
-        .button { display: block; width: 200px; margin: 15px auto; padding: 15px; text-decoration: none; color: white; border-radius: 10px; font-weight: bold; }
-        .play-store { background-color: #34a853; }
-        .apple-store { background-color: #000; }
-        .website { background-color: #4285f4; }
-        .whatsapp { background-color: #25d366; }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .logo-container {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .logo-container img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+            max-width: 300px;
+        }
+        .btn {
+            padding: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #d9534f;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #c9302c;
+        }
     </style>
 </head>
 <body>
 
-    <h1>Butt Grill & Family Resturent</h1>
+    <div class="logo-container">
+        <img src="Butt Grill .jpg s00asd.JPG.jpeg" alt="Butt Grill Logo">
+    </div>
 
-    <a href="https://play.google.com/store/apps/details?id=com.blink.buttgrillfamilyrestaurant" class="button play-store">Play Store</a>
-    <a href="https://apps.apple.com/id/app/butt-grill/id6759933264" class="button apple-store">Apple Store</a>
-    <a href="https://www.buttgrill.com" class="button website">Website</a>
-    <a href="https://wa.me/+923005429290" class="button whatsapp">Help Center (WhatsApp)</a>
+    <div class="buttons-container">
+        <a href="#" class="btn">POS System</a>
+        <a href="#" class="btn">Delivery Tracking</a>
+        <a href="#" class="btn">Menu Costs</a>
+        <a href="#" class="btn">Reports</a>
+    </div>
+
 </body>
 </html>
