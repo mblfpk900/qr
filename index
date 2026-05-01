@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mere Restaurant Ka Naam</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #008000; }
+        h1 { color: #333; }
+        .button { display: block; width: 200px; margin: 15px auto; padding: 15px; text-decoration: none; color: white; border-radius: 10px; font-weight: bold; }
+        .play-store { background-color: #34a853; }
+        .apple-store { background-color: #000; }
+        .website { background-color: #4285f4; }
+        .whatsapp { background-color: #25d366; }
+    </style>
+</head>
+<body>
+
+    <h1>Butt Grill & Family Resturent</h1>
+
+    <a href="https://play.google.com/store/apps/details?id=com.blink.buttgrillfamilyrestaurant" class="button play-store">Play Store</a>
+    <a href="https://apps.apple.com/id/app/butt-grill/id6759933264" class="button apple-store">Apple Store</a>
+    <a href="https://www.buttgrill.com" class="button website">Website</a>
+    <a href="https://wa.me/+923005429290" class="button whatsapp">Help Center (WhatsApp)</a>
+</body>
+</html>
