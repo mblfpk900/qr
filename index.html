@@ -1,67 +1,83 @@
 <!DOCTYPE html>
-<html lang="ur">
+<html lang="hi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Butt Grill & Family Restaurant</title>
     <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             min-height: 100vh;
+            /* Background Image Setup */
+            background-image: url('Butt Grill .jpg s00asd.JPG.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            /* Dark overlay for better text readability */
+            background-color: rgba(0, 0, 0, 0.6);
+            background-blend-mode: overlay;
+            padding: 20px;
+            color: white;
         }
-        .logo-container {
-            margin-bottom: 30px;
+        h1 {
+            font-size: 24px;
+            margin-bottom: 35px;
             text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
         }
-        .logo-container img {
-            max-width: 150px;
-            height: auto;
-            border-radius: 8px;
-        }
-        .buttons-container {
+        .button {
             display: flex;
-            flex-direction: column;
-            gap: 15px;
-            width: 100%;
-            max-width: 300px;
-        }
-        .btn {
+            align-items: center;
+            justify-content: center;
+            width: 280px;
+            margin: 12px auto;
             padding: 15px;
-            font-size: 16px;
-            font-weight: bold;
-            color: #fff;
-            background-color: #d9534f;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            text-align: center;
             text-decoration: none;
-            transition: background-color 0.3s;
+            color: white;
+            border-radius: 30px; /* Fully rounded buttons */
+            font-weight: bold;
+            font-size: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease, background-color 0.2s ease;
         }
-        .btn:hover {
-            background-color: #c9302c;
+        .button:hover {
+            transform: translateY(-2px);
+        }
+        .play-store { background-color: #34a853; }
+        .apple-store { background-color: #000000; }
+        .website { background-color: #4285f4; }
+        .whatsapp { background-color: #25d366; }
+        
+        .button span {
+            margin-left: 10px;
         }
     </style>
 </head>
 <body>
 
-    <div class="logo-container">
-        <img src="Butt Grill .jpg s00asd.JPG.jpeg" alt="Butt Grill Logo">
-    </div>
+    <h1>Butt Grill & Family Restaurant</h1>
 
-    <div class="buttons-container">
-        <a href="#" class="btn">POS System</a>
-        <a href="#" class="btn">Delivery Tracking</a>
-        <a href="#" class="btn">Menu Costs</a>
-        <a href="#" class="btn">Reports</a>
-    </div>
+    <a href="https://play.google.com/store/apps/details?id=com.blink.buttgrillfamilyrestaurant" class="button play-store">
+        📱 <span>Play Store</span>
+    </a>
+    <a href="https://apps.apple.com/id/app/butt-grill/id6759933264" class="button apple-store">
+        🍏 <span>Apple Store</span>
+    </a>
+    <a href="https://www.buttgrill.com" class="button website">
+        🌐 <span>Website</span>
+    </a>
+    <a href="https://wa.me/+923005429290" class="button whatsapp">
+        💬 <span>Help Center (WhatsApp)</span>
+    </a>
 
 </body>
 </html>
